@@ -1,6 +1,6 @@
 <?php
 
-namespace Asantibanez\LivewireStatusBoard;
+namespace cristyanhenrich\LivewireStatusBoard;
 
 use Illuminate\Support\ServiceProvider;
 

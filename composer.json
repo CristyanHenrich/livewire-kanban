@@ -31,7 +31,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Cristyanhenrich\\LivewireStatusBoard\\Tests\\": "tests"
+            "cristyanhenrich\\LivewireStatusBoard\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cristyanhenrich\\LivewireStatusBoard\\LivewireStatusBoardServiceProvider"
+                "cristyanhenrich\\LivewireStatusBoard\\LivewireStatusBoardServiceProvider"
             ],
             "aliases": {
-                "LivewireStatusBoard": "Cristyanhenrich\\LivewireStatusBoard\\LivewireStatusBoardFacade"
+                "LivewireStatusBoard": "cristyanhenrich\\LivewireStatusBoard\\LivewireStatusBoardFacade"
             }
         }
     }
