@@ -137,11 +137,13 @@ class LivewireStatusBoard extends Component
             ->map(function ($status) use ($records) {
                 $status['group'] = $this->id;
                 $status['statusRecordsId'] = "{$this->id}-{$status['id']}";
+
                 $status['records'] = $records
                     ->filter(function ($record) use ($status) {
                         return $this->isRecordInStatus($record, $status);
                     });
 
+                $status['records'] = $status['records']->sortBy('ordem');
                 return $status;
             });
 
