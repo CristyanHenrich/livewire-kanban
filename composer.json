@@ -1,17 +1,17 @@
 {
-    "name": "asantibanez/livewire-status-board",
+    "name": "cristyanhenrich/livewire-status-board",
     "description": "Livewire component to show models/data according to its current status",
     "keywords": [
-        "asantibanez",
+        "cristyanhenrich",
         "livewire-status-board"
     ],
-    "homepage": "https://github.com/asantibanez/livewire-status-board",
+    "homepage": "https://github.com/cristyanhenrich/livewire-status-board",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Andrés Santibáñez",
-            "email": "santibanez.andres@gmail.com",
+            "name": "Cristyan Henrich",
+            "email": "cristyanhenrich16@gmail.com.br",
             "role": "Developer"
         }
     ],
@@ -26,18 +26,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Asantibanez\\LivewireStatusBoard\\": "src"
+            "Cristyanhenrich\\LivewireStatusBoard\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Asantibanez\\LivewireStatusBoard\\Tests\\": "tests"
+            "Cristyanhenrich\\LivewireStatusBoard\\Tests\\": "tests"
         }
     },
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true
@@ -45,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Asantibanez\\LivewireStatusBoard\\LivewireStatusBoardServiceProvider"
+                "Cristyanhenrich\\LivewireStatusBoard\\LivewireStatusBoardServiceProvider"
             ],
             "aliases": {
-                "LivewireStatusBoard": "Asantibanez\\LivewireStatusBoard\\LivewireStatusBoardFacade"
+                "LivewireStatusBoard": "Cristyanhenrich\\LivewireStatusBoard\\LivewireStatusBoardFacade"
             }
         }
     }
