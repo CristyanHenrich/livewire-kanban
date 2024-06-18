@@ -1,11 +1,11 @@
 {
-    "name": "cristyanhenrich/livewire-status-board",
+    "name": "cristyanhenrich/livewire-kanban",
     "description": "Livewire component to show models/data according to its current status",
     "keywords": [
         "cristyanhenrich",
         "livewire-status-board"
     ],
-    "homepage": "https://github.com/cristyanhenrich/livewire-status-board",
+    "homepage": "https://github.com/CristyanHenrich/livewire-kanban",
     "license": "MIT",
     "type": "library",
     "authors": [
